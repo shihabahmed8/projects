@@ -17,6 +17,8 @@ elif choose_calculation == "pow()":
        result= pow(frist_number, secons_number)
 elif choose_calculation == "abs()":
        result= abs(frist_number - secons_number)
+else:
+      print("Try again")
 
 print(f"The result is= {result}")
 
